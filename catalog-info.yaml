@@ -11,4 +11,4 @@ spec:
   owner: user:stolliemods
   system: examples
   definition: 
-    $text: https://petstore.swagger.io/v2/swagger.json  
+    $text: ./open-api-spec.yaml
