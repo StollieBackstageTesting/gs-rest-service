@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "springboot-restful-template"
+  annotations:
+    github.com/project-slug: 'StollieBackstageTesting/gs-rest-service'
+spec:
+  type: api
+  owner: user:stolliemods
+  lifecycle: experimental
