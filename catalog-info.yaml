@@ -1,10 +1,14 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: API
 metadata:
   name: "springboot-restful-template"
   annotations:
     github.com/project-slug: 'StollieBackstageTesting/gs-rest-service'
 spec:
-  type: api
-  owner: user:stolliemods
+  type: restful
+  
   lifecycle: experimental
+  owner: user:stolliemods
+  system: examples
+  definition: 
+    $text: https://petstore.swagger.io/v2/swagger.json  
