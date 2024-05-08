@@ -16,3 +16,5 @@ dependency-reduced-pom.xml
 README.html
 *.iml
 .idea
+/.vs/gs-rest-service/FileContentIndex/6406b3b5-cc6a-434a-a17e-002fab1f718c.vsidx
+/.vs
